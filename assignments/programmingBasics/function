@@ -1,0 +1,49 @@
+// Predict the Output
+
+
+//Predict 1: if we call this function, this function will print Hello on the console and the web page
+//the output is Hello
+function greeting() {// the name of this function is  greetings
+  return "Hello";// so this return here will directly print the word hello on the web page
+  console.log("World");// will not work
+}
+var word = greeting();// this set a variable call word to have the greeting function value which is Hello
+console.log(word);// this will print Hello on the console
+
+//Predict 2: // if we call this function,so it will print on my console line 17 and also print number on my console depending of the value of the parameter num1 and num2 
+//and will also print the actual sum of those 2 parameters on my web page.
+//the output is:
+//Summing Numbers!
+//num1 is: 3
+//num2 is: 5
+//Summing Numbers!
+//num1 is: 4
+//num2 is: 7
+//8
+//11
+function add(num1, num2) {// the function is call add  and it has 2 parameter num1 and num2
+  console.log("Summing Numbers!"); // this will print summing number! on the console
+  console.log("num1 is: " + num1); // this will print num1 is + the value of first parameter
+  console.log("num2 is: " + num2); // this will print num2 is + the value of second parameter
+  var sum = num1 + num2; // this set a variable sum to be the addition of the first and second  parameter
+  return sum; // this will return on the web page the actual sum(addition of the first and second  parameter)
+}
+var result1 = add(3, 5);// this set a variable call result1 to have the value of the function call add with first parameter=3 and second parameter=5
+var result2 = add(4, 7);//this set a variable call result2 to have the value of the function call add with first parameter=4 and second parameter=7
+console.log(result1);//this will do 16,17,18 with the value in 22
+console.log(result2);//this will do 16,17,18 with the value in 23
+
+
+//Predict 3:
+// if we call this function: highFive(with any number greater than 5) at the end , it will use a for loops to print all value call i starting at zero and less than the value of num
+// except at i equal 5 (it will print high Five!)
+function highFive(num) {//this function is call highFive with a parameter call num
+  for (var i = 0; i < num; i++) {
+    //this set the starting point of the loops at 0, and go through value less than value of num and increase i by 1 each after each  loop
+    if (i == 5) { // here at i equal to 5 , the console will print High Five!
+      console.log("High Five!");
+    } else {// when i is not equal to 5 it will print i
+      console.log(i);
+    }
+  }
+}
