@@ -47,3 +47,4 @@ function highFive(num) {//this function is call highFive with a parameter call n
     }
   }
 }
+highFive(8)
