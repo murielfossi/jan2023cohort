@@ -5,6 +5,11 @@
 img {
     max-height: 200px;
 }
+button {
+    background: #90e6d7;
+    background: linear-gradient(335deg, #90e6d7 0%, #23a690 50%, #0c4239 100%);
+    border: 2px solid #23a690;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -16,17 +21,24 @@ font-size: larger  color white;}
 
 .column {
     display: flex;
-    flex-direction: column;}
-    
-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
     display: flex;
     flex-direction: column;
-    background-color: #14a7a2;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+        border: 4px groove #23a690;
+}
+header {
+    display: flex;
+    flex-direction: row;
 }
 header .row {
     width: 100%;
-    /* display: flex;
-    justify-content: space-between; */
 }
 header .row img {
     border-radius: 50%;
@@ -37,11 +49,15 @@ header .row img {
 }
 header div {
     display: flex;
-    flex-direction: space-between;
+    flex-direction: row;
     align-items: center;
+    background: #2c322c;
+    background: linear-gradient(335deg, #2c322c 0%, #00cc00 50%, #71a071 100%);
+    width: 100%;
     font-size: 1.2em;    
 }
-header div a {
+nav a {
+    color: white;
     text-decoration: none;
     padding: 1em;
 }
@@ -63,12 +79,24 @@ main {
 }
 .squishyRow {
     width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.miniSquish {
+    border: 4px groove #9d159d;
 }
 main .row .column {
     padding: 1em;
 }
-
+main .row .column h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #2c322c;
+    background: linear-gradient(335deg, #2c322c 0%, #00cc00 50%, #71a071 100%);
+}
 main .row .column .row .column img {
+    max-width: 100px;
     border-radius: 50%;
     max-width: 100%;
 }
@@ -76,17 +104,25 @@ p {
     margin: .5em;
     font-size: 1.1em;
 }
+.price {
+    color: #9d159d;
+}
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
+}
+footer .footerRow {
+    width: 100%;
 }
 footer img {
     border-radius: 50%;
     max-width: 75px;
 }
 #sale {
+    border: 4px groove #23a690;
     padding: 1em;
     margin: 1em;
 }
