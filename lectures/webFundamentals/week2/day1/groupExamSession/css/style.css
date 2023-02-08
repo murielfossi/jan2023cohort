@@ -1,5 +1,5 @@
 * {
-    /* border: 1px dotted red; */
+    border: 1px dotted red;
     margin: auto;
 }
 img {
@@ -11,16 +11,22 @@ img {
     justify-content: center;
     align-items: center;
 }
+.navbar{background-color: black;
+font-size: larger  color white;}
+
 .column {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
+    
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #14a7a2;
 }
 header .row {
     width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
 }
 header .row img {
     border-radius: 50%;
@@ -31,7 +37,7 @@ header .row img {
 }
 header div {
     display: flex;
-    flex-direction: row;
+    flex-direction: space-between;
     align-items: center;
     font-size: 1.2em;    
 }
@@ -39,12 +45,21 @@ header div a {
     text-decoration: none;
     padding: 1em;
 }
+
+h1{
+    font-size: larger;  color: white;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 95%;
+}
+
+.miniSquish {
+    border: solid 1px #2c322c;
 }
 .squishyRow {
     width: 100%;
@@ -55,6 +70,7 @@ main .row .column {
 
 main .row .column .row .column img {
     border-radius: 50%;
+    max-width: 100%;
 }
 p {
     margin: .5em;

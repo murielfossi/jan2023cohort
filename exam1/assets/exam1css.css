@@ -1,0 +1,192 @@
+.firstcontainer {
+  background-color: white;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.headcontainer {
+  border-bottom: 10px solid black;
+}
+#headcontainer1 {
+  display: flex;
+  justify-content: space-around;
+  height: 140px;
+}
+
+#image1 {
+  height: 140px;
+  background-color: #00cc99;
+}
+
+#searchbarcontainer {
+  
+  width: 35%;
+  
+  padding-top: 20px;
+}
+#searchbarform {
+  border: 5px solid black;
+  width: auto;
+  height: auto;
+  border-radius: 60px;
+  padding: 5px;
+  padding-right: px;
+  display: flex;
+    justify-content: space-between;
+}
+#image2 {
+  width: 20px;
+  border: 0px;
+}
+input {
+  background: white;
+  border: 0;
+  font-size: large;
+  outline: none;
+  width: 400px;
+}
+#button {
+  border: 0;
+  background-color: white;
+}
+#image3 {
+  width: 60px;
+  height: 60px;
+}
+
+#click {
+  background-color: white;
+  border: 0;
+}
+
+#headcontainer2 {
+  display: flex;
+  justify-content: space-around;
+}
+.thirdcontainer {
+  height: 600px;
+  padding: 5px;
+}
+
+#thirdcontainer1 {
+  height: 260px;
+  margin: 1px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+#thirdcontainer2 {
+  height: 290px;
+  background: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+#box1 {
+  width: 250px;
+  font-size: x-large;
+  background-color: #00cc99;
+  padding: 8px; 
+  height: 235px;
+  text-align: center;
+}
+#box2 {
+ 
+  width: 250px;
+  margin-right: 20px;
+  
+}
+#image4 {
+  width: 250px;
+  position: absolute;
+  left: 610px;
+}
+#image4:hover {
+  height: auto;
+  position: relative;
+  opacity: 0;
+}
+
+#image52 {
+  width: 250px;
+}
+
+
+#box3 {
+  width: 280px;
+ 
+}
+#image5 {
+  width: 270px;
+  height: 150px;
+}
+#sousbox3 {
+  width: 270px;
+  font-size: x-large;
+  background-color: #00cc99;
+  text-align: center;
+  height: 90px;
+  margin-top: 5px;
+}
+#image6 {
+  width: 53px;
+  background-color: #00cc99;
+  border: 0;
+  margin-bottom: -15px;
+}
+#image51 {
+  width: 50px;
+  background-color: #00cc99;
+  border: 0;
+  margin-bottom: -15px;
+}
+#Box1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box4 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box5 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box6 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box7 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+#Box8 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.display{border: 5px solid black;
+  margin-top: -20px;
+  background-color: white;
+ display: flex;
+ justify-content: space-around;
+}
+#hide{
+ width: 100px;background:#00cc99; border: 5px solid black; height: 50px;margin-top: 10px;font-size: large;
+}
