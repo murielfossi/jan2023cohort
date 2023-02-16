@@ -83,6 +83,7 @@ for (int k = 0; k < grades.Count; k++)
             
          Console.WriteLine($"{items.Key}:{items.Value}");
         }
+        
 //for each method
 foreach(KeyValuePair<string,int> items in grades)//je peux mettre la virgule ou les deux point
  {
@@ -121,3 +122,70 @@ for (int i = 0; i < name.Length; i++)
 
 
 // Console.WriteLine(NameandFlav["Tim"]);
+
+
+
+
+
+
+﻿// SOLUTION PROJECT FOR C# ASSIGNMENT - FUNDAMENTALS II
+// DO NOT COPY FOR ASSIGNMENT SUBMISSION
+// TRY THE ASSIGNMENT BEFORE COMING HERE
+
+// Three basic arrays
+// Create an array with the integers 0 through 9 inside
+int[] intArray = new int[] {0,1,2,3,4,5,6,7,8,9};
+
+// Create an array with the names Tim, Martin, Nikki, and Sara
+string[] namesArray = new string[] {"Tim", "Martin", "Nikki", "Sara"};
+
+// Create an array of length 10. Then fill it with alternating true/false values, starting with true (tip: do this using logic! Do not hard-code the values in!)
+bool[] boolArray = new bool[10];
+for(int i = 0; i < boolArray.Length; i++)
+{
+    if(i % 2 == 0)
+    {
+        boolArray[i] = true;
+    } else {
+        boolArray[i] = false;
+    }
+}
+
+// List of flavors
+// Create a List of ice cream flavors that holds at least 5 different flavors. (Feel free to add more than 5!)
+List<string> Flavors = new List<string>();
+Flavors.Add("Vanilla");
+Flavors.Add("Strawberry");
+Flavors.Add("Chocolate");
+Flavors.Add("Mint Chip");
+Flavors.Add("Cookies and Cream");
+Flavors.Add("Orange Cream");
+
+// Output the length of the List after you added the flavors.
+Console.WriteLine($"Length of Flavors List: {Flavors.Count}");
+
+// Output the third flavor in the List.
+Console.WriteLine($"Third flavor in the List: {Flavors[2]}");
+
+// Now remove the third flavor using its index location.
+Flavors.RemoveAt(2);
+
+// Output the length of the List again. It should now be one fewer.
+Console.WriteLine($"Length of Flavors List: {Flavors.Count}");
+
+// User Dictionary
+// Create a dictionary that will store string keys and string values.
+Dictionary<string,string> myDictionary = new Dictionary<string,string>();
+
+// Add key/value pairs to the dictionary where each key is a name from the names array and each value is a randomly selected flavor from the flavors List
+Random rand = new Random();
+for(int i = 0; i < namesArray.Length; i++)
+{
+    myDictionary.Add(namesArray[i], Flavors[rand.Next(0,Flavors.Count)]);
+}
+
+// Loop through the dictionary and print out each user's name and their associated ice cream flavor.
+foreach(KeyValuePair<string,string> entry in myDictionary)
+{
+    Console.WriteLine($"{entry.Key} - {entry.Value}");
+}
