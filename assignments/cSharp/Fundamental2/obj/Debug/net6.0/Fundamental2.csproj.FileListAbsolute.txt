@@ -1,0 +1,15 @@
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.csproj.AssemblyReference.cache
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.AssemblyInfoInputs.cache
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.AssemblyInfo.cs
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.csproj.CoreCompileInputs.cache
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\bin\Debug\net6.0\Fundamental2.exe
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\bin\Debug\net6.0\Fundamental2.deps.json
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\bin\Debug\net6.0\Fundamental2.runtimeconfig.json
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\bin\Debug\net6.0\Fundamental2.dll
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\bin\Debug\net6.0\Fundamental2.pdb
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.dll
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\refint\Fundamental2.dll
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.pdb
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\Fundamental2.genruntimeconfig.cache
+C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\Fundamental2\obj\Debug\net6.0\ref\Fundamental2.dll
