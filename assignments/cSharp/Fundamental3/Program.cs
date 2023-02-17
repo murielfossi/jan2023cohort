@@ -184,45 +184,24 @@ PrintDictionary(TestDict);
 
 
 
-//Given a search term, return true or false whether the given term is a key in a dictionary.
-// Use the TestDict from the earlier example or make your own
+// //Given a search term, return true or false whether the given term is a key in a dictionary.
+// // Use the TestDict from the earlier example or make your own
 
-
-
-
-//Given a List of names and a List of integers, create a dictionary where the key is a name from the List of names and the value is a 
-//number from the List of numbers. Assume that the two Lists will be of the same length. Don't forget to print your results to make sure it worked.
-
-
-
-
-// Ex: Given ["Julie", "Harold", "James", "Monica"] and [6,12,7,10], return a dictionary
-// {
-//	"Julie": 6,
-//	"Harold": 12,
-//	"James": 7,
-//	"Monica": 10
-// } 
-
-List<string> Names= new List<string>() {"Julie", "Harold","James","Monica"};
-List<int> Numbers = new List<int>() {6,12,7,10};
-Dictionary<string,int> Name_mumber = new Dictionary<string,int>();
-
-
-static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)
+static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
 {
-    for(int i=0; i<Names.Count;i++);
-    {return,
-
-
-
-
-        KeyValuePair<string, int> items=Names.ElementAt(i);
-            
-         Console.WriteLine($"{items.Key}:{items.Value}");
+   
+    foreach(var entry in MyDictionary) {
+        if (entry.Key == SearchTerm) {
+            return true;
+        }
     }
-    
+    return false;
 }
+// Use the TestDict from the earlier example or make your own
+// This should print true
+Console.WriteLine(FindKey(TestDict, "RealName"));
+// This should print false
+Console.WriteLine(FindKey(TestDict, "Name"));
 
 
 
@@ -232,90 +211,135 @@ static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> N
 
 
 
+// //Given a List of names and a List of integers, create a dictionary where the key is a name from the List of names and the value is a 
+// //number from the List of numbers. Assume that the two Lists will be of the same length. Don't forget to print your results to make sure it worked.
 
 
 
 
+// // Ex: Given ["Julie", "Harold", "James", "Monica"] and [6,12,7,10], return a dictionary
+// // {
+// //	"Julie": 6,
+// //	"Harold": 12,
+// //	"James": 7,
+// //	"Monica": 10
+// // } 
 
-//My own note
-static string SayHello()
-{ return "Hello how are you doing today?";}
 
-  Console.WriteLine(SayHello() );
+List<int> List_number = new List<int>() {6,12,7,10};
+List<string> List_name= new List<string>() {"Julie", "Harold","James","Monica"};
 
-  //example with return and print in the console
+ static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)// Names and Numbers are parameter, one represent any string list and the other any int list lis
+
+ {
+    Dictionary<string,int> Dic = new Dictionary<string,int>();
 
 
-  static String Ditbonjour(string firstName, string lastName)
-  {
-    return $"{firstName} {lastName}, Hello how are you doing";
+
+    for (int i = 0; i < Names.Count; i++)  { Dic.Add(Names[i],Numbers[i]);} 
     
-  }
+     foreach(KeyValuePair<string,int> entry in Dic)
+
+    {Console.WriteLine($"{entry.Key} : {entry.Value}");}
+
+    
+ return Dic;
+   
+
+ } 
+
+
+GenerateDictionary(List_name, List_number);
+
+
+
+
+
+
+
+
+
+
+
+// //My own note
+// static string SayHello()
+// { return "Hello how are you doing today?";}
+
+//   Console.WriteLine(SayHello() );
+
+//   //example with return and print in the console
+
+
+//   static String Ditbonjour(string firstName, string lastName)
+//   {
+//     return $"{firstName} {lastName}, Hello how are you doing";
+    
+//   }
   
-   Ditbonjour("Muriel","Fossi");
-   Console.WriteLine(Ditbonjour("Muriel","Fossi"));
+//    Ditbonjour("Muriel","Fossi");
+//    Console.WriteLine(Ditbonjour("Muriel","Fossi"));
    
 
 
 
 
 
- static int Addnumbers(int a, int b)
+//  static int Addnumbers(int a, int b)
 
- {return a+b;}
+//  {return a+b;}
 
- Console.WriteLine(Addnumbers(20,20) );
-
-
-
-
-
-static int Add2numbers(){
-    var a=15;
-    var b=15;
-    return a+b;
-}
-Console.WriteLine(Add2numbers());
+//  Console.WriteLine(Addnumbers(20,20) );
 
 
 
 
 
-
-// exemple du void funcion qui a print. on le call a l'exterieur. on ne veux pas que l'execution return sur le web page, mais on veux ca sur la console
-static void Sayhello()
-{
-    Console.WriteLine("Hello how are you doing today?");
-}
-// See how we called the name of the function followed by ()
-// This must be done OUTSIDE the function you created
-// ...unless you like infinite loops or are writing a recursive function
-Sayhello();
+// static int Add2numbers(){
+//     var a=15;
+//     var b=15;
+//     return a+b;
+// }
+// Console.WriteLine(Add2numbers());
 
 
 
 
 
 
-// Notice how we specify that we will take in a string called firstName within the parentheses
-static void Saybonjour(string firstName)
-{
-    // Once inside the function, we treat firstName like any other variable
-    // The exact value of this variable will be determined only after we call it
-    // Think of the variable name as a placeholder for a value we do not know yet
-    Console.WriteLine($"Hello, {firstName}, how are you doing today?");
-}
-Saybonjour("Muriel");
+// // exemple du void funcion qui a print. on le call a l'exterieur. on ne veux pas que l'execution return sur le web page, mais on veux ca sur la console
+// static void Sayhello()
+// {
+//     Console.WriteLine("Hello how are you doing today?");
+// }
+// // See how we called the name of the function followed by ()
+// // This must be done OUTSIDE the function you created
+// // ...unless you like infinite loops or are writing a recursive function
+// Sayhello();
 
 
 
 
 
-// Notice how new parameters are separated by commas and their types are defined
-static void SayBonjour(string firstName, string lastName)
-{
-    Console.WriteLine($"Hello, {firstName} {lastName}, how are you doing today?");
-}
-SayBonjour("Muriel", "Fossi");
+
+// // Notice how we specify that we will take in a string called firstName within the parentheses
+// static void Saybonjour(string firstName)
+// {
+//     // Once inside the function, we treat firstName like any other variable
+//     // The exact value of this variable will be determined only after we call it
+//     // Think of the variable name as a placeholder for a value we do not know yet
+//     Console.WriteLine($"Hello, {firstName}, how are you doing today?");
+// }
+// Saybonjour("Muriel");
+
+
+
+
+
+// // Notice how new parameters are separated by commas and their types are defined
+// static void SayBonjour(string firstName, string lastName)
+// {
+//     Console.WriteLine($"Hello, {firstName} {lastName}, how are you doing today?");
+// }
+// SayBonjour("Muriel", "Fossi");
 
 
