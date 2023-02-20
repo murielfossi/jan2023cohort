@@ -15,14 +15,14 @@ for(int i = 1; i <= 5; i++)
     Console.WriteLine(bob);
 }
 //Modify the previous loop to add the random values together and print the sum after the loop finishes.
-Random rand= new Random();
+Random rande= new Random();
 
-int bob= 0;
+int Bob= 0;
 int Sum= 0;
 for(int i = 1; i <= 5; i++)
-{ bob=rand.Next(10,21);
-    Console.WriteLine(bob);
-    Sum= Sum + bob;
+{ Bob=rande.Next(10,21);
+    Console.WriteLine(Bob);
+    Sum= Sum + Bob;
     
 }
 Console.WriteLine(Sum);
