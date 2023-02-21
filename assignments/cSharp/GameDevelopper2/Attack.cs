@@ -1,5 +1,5 @@
-class Attack 
-{public string AttackName;
+public class Attack {
+public string AttackName;
  public int AttackDamageAmount;
 
 //My consructor  theAttack and theAttackDamageAmount  are just 2 parameter

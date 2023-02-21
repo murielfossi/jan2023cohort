@@ -24,7 +24,7 @@ Throw.PrintAttackInfo();
 // Killer.AttackList.Add(Knife.AttackName);
 // Killer.AttackList.Add(Fireball.AttackName);
 // Killer.AttackList.Add(Throw.AttackName);
-Killer.AddAttackToAttackList();
+// Killer.AddAttackToAttackList();
 
 
 //Console.WriteLine(Killer.AttackList); did not work because it is not possible to access the killer.attacklist like this, we need to write a for loop 

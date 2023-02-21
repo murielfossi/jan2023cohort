@@ -1,37 +1,31 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
- 
-
-//// Create an instance of an Enemy in Program.cs
-Enemy Killer = new Enemy("Killer");//create a new instance in the Enemy class
-Console.WriteLine($"I am a new enemy named {Killer.EnemyName}");// i can use this, if i did not create a method.
-Killer.PrintEnemyInfos();//Activate the method to have infos of the new enemy created
-
-// // Create 3 instances of Attacks in Program.cs
-Attack Knife = new Attack("Knife", 10);
-Knife.PrintAttackInfo();
-
-Attack Fireball= new Attack ("Fireball", 5);
-Fireball.PrintAttackInfo();
-
-Attack Throw = new Attack ("Throw", 25);
-Throw.PrintAttackInfo();
-
-// Console.WriteLine(Kick.AttackName);
+﻿//Create instances of the Melee, Ranged, and Magic Caster classes
+MeleeFighter Melee_Player1 = new MeleeFighter("Melee_Player1");
+RangedFighter Ranged_Player1 = new RangedFighter("Ranged_Player1");
+MagicHeal MagicHeal_Player1 = new MagicHeal("MagicHeal_player1");
+//activate a method
+Melee_Player1.PrintEnemyInfos();
+Melee_Player1.PrintEnemyAttackList();
 
 
-// Add these Attacks to your Enemy instance's Attack List
-Killer.AttackList.Add(Knife.AttackName);
-Killer.AttackList.Add(Fireball.AttackName);
-Killer.AttackList.Add(Throw.AttackName);
 
 
-//print the Killer.AttackList with the method i wrote in enemy file
-Killer.PrintEnemyAttackList();
+//Perform the Kick Attack from your Melee class character on your Ranged character
 
- // Call on your Enemy's RandomAttack method to test that they can now perform the given Attacks
-Killer.RandomAttack();
+MagicHeal_Player1.PerformAttack(Ranged_Player1, Melee_Player1.AttackList[2]);
 
-Killer.PrintEnemyInfos();
+//Perform the Rage method from your Melee class character on your Magic Caster character
+
+// MagicHeal_Player1.PerformAttack(MagicHeal_Player1, Melee_Player1.Rage());
+
+//Perform the Shoot an Arrow Attack from your Ranged character on your Melee character (if you wrote everything as listed above, you should not have been able to attack due to the Distance constraint)
+Ranged_Player1.PerformAttack(Melee_Player1, Ranged_Player1.AttackList[0]);
+// Have your Ranged character perform the Dash method
+Ranged_Player1.Dash();
+Ranged_Player1.PerformAttack(Melee_Player1, Ranged_Player1.AttackList[0]);
+
+//have magic caster perform heal on range fighter and try attack again
+
+MagicHeal_Player1.PerformAttack(Melee_Player1, MagicHeal_Player1.AttackList[0]);
+MagicHeal_Player1.Heal(Ranged_Player1);
+MagicHeal_Player1.Heal(MagicHeal_Player1);
+
