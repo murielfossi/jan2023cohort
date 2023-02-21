@@ -19,5 +19,3 @@ C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCPr
 C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject2\obj\Debug\net6.0\MVCProject2.pdb
 C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject2\obj\Debug\net6.0\MVCProject2.genruntimeconfig.cache
 C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject2\obj\Debug\net6.0\ref\MVCProject2.dll
-C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject2\obj\Debug\net6.0\MVCProject2.RazorAssemblyInfo.cache
-C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject2\obj\Debug\net6.0\MVCProject2.RazorAssemblyInfo.cs
