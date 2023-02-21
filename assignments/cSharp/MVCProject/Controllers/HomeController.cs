@@ -7,12 +7,18 @@ namespace MVCProject.Controllers;     //be sure to use your own project's namesp
         [Route("")]     //associated route string (exclude the leading /)
         public string Index()
         {
-            return "Hello World from HelloController!";
+            return "This is my Index!";
         }
          [HttpGet("/hello")]    //type of request
 
-        public string Hello()
+        public string project()
         {
-            return "Hello World from HelloController!";
+            return "These are my projects";
         }
+
+          public string Contact()
+        {
+            return "This is my contacts!";
+        }
+
     }
