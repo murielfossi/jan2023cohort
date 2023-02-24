@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Razor Fun</title>
+</head>
+<body>
+    <header>
+        
+         <nav> <a href="/">Home</a></nav>
+         <nav> <a href="/secondpage">Secondpage</a></nav>
+         <nav> <a href="/Thirdpage">Thirdpage</a></nav>
+
+    </header>
+    <h1>Here are some delicious foods</h1>
+    <h1>Your stored ViewBag is: @ViewBag.Name</h1>
+    @{
+        var Foodslist =new List<string>
+            {"Apple Pie",
+            "Pizza",
+            "Cinnamon Rolls",
+            "Lasagna",
+            "Donuts",
+            "Chocolate Cake",
+            "Burritos",
+            "sanga",
+            "Couscous Gombo",
+           "Mais",
+           "Plantain"
+            
+            };
+
+     // foreach(var Food in Foodslist){<p>@Food</p>}// voici comment je vais display tous ces mots sur ma page web.  
+
+
+        //je peux meme decider de faire mieu, en changeant la couleur des mots , voici un exemple.
+
+         foreach(var Food in Foodslist)
+        {
+            if (Food.StartsWith("C"))
+            {<p class="red">@Food</p>}
+            else if(Food.StartsWith("P") || Food.StartsWith("L"))
+            {<p class="blue">@Food</p>}
+            else{<p>@Food</p>}
+        }
+            
+
+
+    }
+</body>
+</html>

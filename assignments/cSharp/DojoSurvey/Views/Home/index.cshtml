@@ -9,25 +9,32 @@
 </head>
 <body>
     <div id="divone">
-        <label for="name"> Your Name:</label>
-        <input type="name"  name="name" /><br><br><br>
+       
 
-        <label for="">Dojo Location</label>
-        <select name="">
-        <option value="">San Jose</option>
-        <option value="">Dallas</option>
+        <label> Your Name:</label>
+        <input type="text"  name="UserName" /><br><br><br>
+
+        <label>Dojo Location</label>
+        <select name="Location" type="text">
+            <option value="">San Jose</option>
+            <option value="">Dallas</option>
+         </select><br><br><br>
+        
+      
+
+       <label >Favorite Language</label>
+        <select name="Language" type="text">
+        <option>C#</option>
+        <option>Javascript</option>
        </select><br><br><br>
 
-       <label for="">Favorite Language</label>
-        <select name="">
-        <option value="">C#</option>
-        <option value="">Javascript</option>
-       </select><br><br><br>
 
-
-         <label for="Message">Comment (Optional)</label><br>
-        <input id="input1"type="Message"  name="Message" /><br><br><br>
-        <a href="/result"><input id="input2" type="button" value="Submit"></a>
+         <label>Comment (Optional)</label><br>
+        <input id="input1"type="text"  name="Message" /><br><br><br>
+        <a href="/result"><input id="input2" type="button" value="Submit(Add user)"></a>  
+        @* Le submit la est enffet add user to le database a cause de POST *@
+        
+        </form>
     </div>
 </body>
 </html>

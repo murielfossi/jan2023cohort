@@ -8,6 +8,18 @@ namespace DojoSurvey.Controllers;
         public ViewResult Result() {
             return View();
         }
+
+
+        
+        [HttpPost("/result")]
+        public IActionResult Result( string UserName, string Location, string Language, string Message ){
+           ViewBag.UserName = $"{UserName}";
+            ViewBag.Location = $"{Location}";
+            ViewBag.Language = $"{Language}";
+            ViewBag.Message =$"{Message}";
+             
+             return View("");
+        }
         
 
         

@@ -8,21 +8,21 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCProject3
 build_property.RootNamespace = MVCProject3
-build_property.ProjectDir = c:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject3\
+build_property.ProjectDir = C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject3\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject3
+build_property.MSBuildProjectDirectory = C:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\assignments\Csharp\MVCProject3
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Contact/contact.cshtml]
+[C:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Contact/contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxjb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Home/home.cshtml]
+[C:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Home/home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Projects/project.cshtml]
+[C:/Users/mufos/OneDrive/Desktop/woscoding/jan2023cohort/assignments/Csharp/MVCProject3/Views/Projects/project.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNccHJvamVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
