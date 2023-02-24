@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GardenOop
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\mufos\OneDrive\Desktop\woscoding\jan2023cohort\lectures\cSharp\week1\day4\GardenOop\
+=======
+build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/GardenOop/
+>>>>>>> b711627229a74ee7c8fdbc6ea132efa77618a9fc
