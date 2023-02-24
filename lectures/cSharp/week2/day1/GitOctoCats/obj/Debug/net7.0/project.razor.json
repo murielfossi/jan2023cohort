@@ -17,8 +17,8 @@
   "RootNamespace": "GitOctoCats",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\Home\\index.cshtml",
-      "TargetPath": "Views\\Home\\index.cshtml",
+      "FilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocats.cshtml",
+      "TargetPath": "Views\\OctoCat\\octocats.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -27,8 +27,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\OctoCat\\octocats.cshtml",
-      "TargetPath": "Views\\OctoCat\\octocats.cshtml",
+      "FilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     }
   ],
