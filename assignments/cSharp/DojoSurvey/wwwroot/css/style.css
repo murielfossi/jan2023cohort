@@ -25,8 +25,31 @@ body{
 
 #divtwo{border:5px solid black;
     width: 300px;
-    height: 300px;
+    height: 350px;
     padding-left: 50px;
    
 
 }
+ .one{
+    display: flex;
+    
+    align-items: center;
+
+ }
+  .two{
+    display: flex;
+    
+    align-items: center;
+ }
+  .three{
+    display: flex;
+    
+    align-items: center;
+ }
+ .four{
+    display: flex;
+    
+    align-items: center;
+ }
+ 
+ 

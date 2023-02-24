@@ -9,7 +9,7 @@
 </head>
 <body>
     
-      @* <form method="POST" action="result">
+      @*
     
     <div id="divtwo">
      <h3><u>Submited Infos</u></h3>
@@ -21,32 +21,35 @@
 
       <a href="/"><input id="input2" type="button" value="Go Back"></a>
         
-    </div
+    @* </div *@
 
-    </form> This will not work like i want*@
+    
 
 
     <div id="divtwo">
     <h3><u>Submited Infos</u></h3>
-    <div>
-        <h3>Name:</h3>
-        <p>@ViewBag.UserName</p>
+    <div class="one">
+            <h3>Name:&nbsp;</h3>
+            <p> @ViewBag.UserName</p> 
     </div>
-    <div>
-        <h3>Dojo Location:</h3>
-        <p>@ViewBag.Location</p>
+    <div class="two">
+        <h3>Dojo Location:&nbsp;</h3>
+        <p> @ViewBag.Location</p>
+        
     </div>
 
-     <div>
-        <h3>Favorite Language:</h3>
+     <div class="three">
+        <h3>Favorite Language:&nbsp; </h3>
         <p>@ViewBag.Language</p>
     </div>
 
-     <div>
-        <h3>Comment:</h3>
-        <p>@ViewBag.Message</p>
+     <div class="four">
+        <h3>Comment:&nbsp;</h3>
+        <p> @ViewBag.Message</p>
+        
     </div>
-    <a href="/"><input id="input2" type="button" value="Go Back"></a>
+    <a href="/"><input id="input2" type="button" value="Go Back"></a> 
+    @* <button >Go Back</button> le boutton ne vas pas marcher car je ne suis pas entrain de soumettre c'est mieu d'utiliser un lien qui me fait rentrer a l'index*@
 
 </body>
 </html>

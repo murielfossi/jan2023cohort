@@ -8,22 +8,25 @@
     <title>DojoSurvey</title>
 </head>
 <body>
-    <div id="divone">
-       
+    <form method="post" action="result">
+      <div id="divone">
+    
 
         <label> Your Name:</label>
         <input type="text"  name="UserName" /><br><br><br>
 
         <label>Dojo Location</label>
         <select name="Location" type="text">
-            <option value="">San Jose</option>
-            <option value="">Dallas</option>
+             <option value=""></option>
+            <option value="San Jose">San Jose</option>
+            <option value="Dallas">Dallas</option>
          </select><br><br><br>
         
       
 
        <label >Favorite Language</label>
         <select name="Language" type="text">
+        <option ></option>
         <option>C#</option>
         <option>Javascript</option>
        </select><br><br><br>
@@ -31,10 +34,12 @@
 
          <label>Comment (Optional)</label><br>
         <input id="input1"type="text"  name="Message" /><br><br><br>
-        <a href="/result"><input id="input2" type="button" value="Submit(Add user)"></a>  
+        <button  id="input2">Submit</button>
+
+        @* <a href="/result"><input id="input2" type="button" value="Submit(Add user)"></a>   *@
         @* Le submit la est enffet add user to le database a cause de POST *@
-        
-        </form>
+    
     </div>
+    </form> 
 </body>
 </html>
