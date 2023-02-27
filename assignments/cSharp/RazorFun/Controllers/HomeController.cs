@@ -21,7 +21,7 @@ namespace RazorFun.Controllers;
         {
             List<string> FoodList=new List<string>()
             
-            ("Apple Pie",
+            {"Apple Pie",
             "Pizza",
             "Cinnamon Rolls",
             "Lasagna",
@@ -33,7 +33,7 @@ namespace RazorFun.Controllers;
            "Mais",
            "Plantain"
             
-            );
+        };
             ViewBag.Message="hello Here are my favorite food!!!!";
             ViewBag.Foods=FoodList;
 

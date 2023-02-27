@@ -25,7 +25,7 @@ public class HomeController : Controller
     public IActionResult Numbers(){
     int [] num = new int []{
         1,2,3,10,43,5};
-    return View("numbers");
+    return View("numbers",num);
     }
    
     [HttpGet("/users")]
@@ -38,7 +38,7 @@ public class HomeController : Controller
     users.Add (new User("Bar","barah"));
 
 
-    return View ("users");
+    return View ("users",users);
 
     }
 
@@ -48,7 +48,7 @@ public class HomeController : Controller
 
      public IActionResult User() {
         User firstUser = new User("Moose", "Phillips");
-        return View(firstUser);
+        return View("user",firstUser);
     }
 
     
