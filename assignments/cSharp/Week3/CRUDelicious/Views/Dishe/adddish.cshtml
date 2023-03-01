@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Add New Dish";
+}
+
+@model Dishe
+<div class="text-center">
+    <h1>Add a new Dish!</h1>
+    <nav>
+      <h2><a href="/">Home</a><span> | </span><a href="/adddish">Add A Dish</a></h2>
+    </nav>
+</div>
+
+<div class="divone">
+    
+    <form action="/createdish" method="post">
+       <div class="div2">
+           <section>
+              <label for="DishChef">Chef's Name</label>
+              <input type="text" name="DishChef" id="">
+              <span asp-validation-for="DishChef"></span>
+       
+            </section><br><br>
+            <section>
+               <label for="DishName"> Name of Dish</label>
+               <input type="text" name="DishName" id="">
+               <span asp-validation-for="DishName"></span>
+           </section><br><br>
+           <section>
+               <label for="DishCalories"># of Calories</label>
+               <input type="text" name="DishCalories" id="">
+               <span asp-validation-for="DishCalories"></span>
+            </section><br><br>
+             
+        </div>
+        <div class="div3">
+            <section>
+               <label for="DishTastiness">Tastiness</label>
+               <select name="DishTastiness" id="">
+               <option value="2"> </option>
+               <option value="1"> 1</option>
+               <option value="2"> 2</option>
+               <option value="1"> 3</option>
+               <option value="2"> 4</option>
+               <option value="1"> 5</option>
+               
+               <span asp-validation-for="DishTastiness"></span>
+               </select> 
+            </section>
+            <section>
+            <label asp-for="DishDescription">Description</label>    
+            <textarea cols="50" rows="5" asp-for="DishDescription"></textarea>
+            <span asp-validation-for="DishDescription"></span>
+            </section>
+            <button>Add Dish</button>
+            
+        </div>
+    </form>
+   
+</div>

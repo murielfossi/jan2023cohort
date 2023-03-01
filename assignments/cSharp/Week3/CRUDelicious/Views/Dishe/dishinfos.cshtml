@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Dish Infos";
+}
+@model Dishe;
+
+<div class="text-center">
+    <h1 class="display-4">@Model.DishName</h1>
+    <nav>
+        <a href="/">Home</a><span> | </span><a href="/adddish">Add A Dish</a>
+    </nav>
+</div><br>
+<form action="/createdish" method="post">
+  <div>
+      <h4>@Model.DishName by @Model.DishChef</h4>
+      <h4>@Model.DishDescription</h4>
+      <h4>Calories: @Model.DishCalories</h4>
+      <h4>Tastiness: @Model.DishTastiness</h4>
+    </div>
+    <nav>
+        <button style="color: red;">Delete Dish</button>
+        <button style="color: blue;">Edit Dish</button>
+    </nav>
+</form>
+
+
+
+
+
+        
+

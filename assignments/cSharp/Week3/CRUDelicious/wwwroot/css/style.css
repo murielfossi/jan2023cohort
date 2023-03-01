@@ -1,0 +1,12 @@
+
+.divone{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.div2{
+    margin: 20px;
+}
+.div3{
+    margin: 20px;
+}

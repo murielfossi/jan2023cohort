@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to CRUDelicious</h1>
+    <nav>
+        <a href="/">Home</a><span> | </span><a href="/adddish">Add A Dish</a>
+    </nav>
+</div><br>
+<h4>Check out some recent Dishes</h4><br><br>
+
+
+@model List<Dishe>
+
+    <div class="row">
+        @* Return this in my home page*@
+        @foreach(Dishe s in Model) {
+            <div class="character">
+             <h5> <a href="/Dishe/dishinfos"> @s.DishName</a> by @s.DishChef</h5>
+                
+            </div>
+        }
+    </div>
