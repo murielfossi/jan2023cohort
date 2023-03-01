@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj": {}
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj": {
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj",
+        "projectUniqueName": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj",
         "projectName": "SquishyViews",
-        "projectPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj",
+        "projectPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\SquishyViews.csproj",
         "packagesPath": "C:\\Users\\mufos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\obj\\",
+        "outputPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\SquishyViews\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mufos\\AppData\\Roaming\\NuGet\\NuGet.Config"

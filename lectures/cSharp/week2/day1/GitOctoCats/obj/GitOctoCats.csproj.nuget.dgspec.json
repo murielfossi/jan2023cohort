@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj": {}
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj": {
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
+        "projectUniqueName": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
         "projectName": "GitOctoCats",
-        "projectPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
+        "projectPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
         "packagesPath": "C:\\Users\\mufos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\obj\\",
+        "outputPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mufos\\AppData\\Roaming\\NuGet\\NuGet.Config"

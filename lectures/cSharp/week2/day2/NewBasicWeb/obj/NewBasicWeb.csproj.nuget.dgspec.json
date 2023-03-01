@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj": {}
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj": {
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
+        "projectUniqueName": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
         "projectName": "NewBasicWeb",
-        "projectPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
+        "projectPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
         "packagesPath": "C:\\Users\\mufos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\obj\\",
+        "outputPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mufos\\AppData\\Roaming\\NuGet\\NuGet.Config"

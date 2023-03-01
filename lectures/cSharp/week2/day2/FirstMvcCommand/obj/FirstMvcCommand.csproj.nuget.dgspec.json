@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj": {}
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj": {
+    "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj",
+        "projectUniqueName": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj",
         "projectName": "FirstMvcCommand",
-        "projectPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj",
+        "projectPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj",
         "packagesPath": "C:\\Users\\mufos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\obj\\",
+        "outputPath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mufos\\AppData\\Roaming\\NuGet\\NuGet.Config"
