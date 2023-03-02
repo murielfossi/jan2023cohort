@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TIhlg26CMBPjYG6/a5srGvRm7DrPdei4CxAkMVl0djn5Tx75+H8vI70Z7SdvOJcfpZDcu/dq6iKhi1VZbyrxvQ==",
+=======
+  "dgSpecHash": "wDg8roQLWD8Y46/OBREmTHQ2Is08+oErzqc0A2pAXM8dUZ6PixqOV4cdJon/yyndC9WbEZyIDLBcwsk6AtHTww==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\FirstMvcCommand\\FirstMvcCommand.csproj",
   "expectedPackageFiles": [],

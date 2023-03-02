@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Cj0uOdC158GuXl/iV+JiLSZOm2HbacxtmkOlLCPiqOVMoLB5vA7Y70FUVUUcUVnj5JPe2rjtX+e/VHzPv44kdQ==",
+=======
+  "dgSpecHash": "LhsaEy4Pyh1lLRkoJGwWhE4v2pvsoFQjb/Lxv0SSUvceM3wxfxjyaZutilDbw5PmcFRxaETUD410DB894Mh4jQ==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week1\\day4\\Bartender\\Bartender.csproj",
   "expectedPackageFiles": [],

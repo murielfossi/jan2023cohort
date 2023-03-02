@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Hu0SnyB0GdHCe7LHryHw/mgP+iaaCRNss5doCofUtUMthHj491xkIdE1lpwBPd0/1QHzlJIkvV4zoKiamPcESg==",
+=======
+  "dgSpecHash": "Az1XB8QQ++/Cc9YsinQVNj3W5BNZS8Sm2cd0CvwW9HszdaD4IUhZcDOvNXtnVRU1qGsVNrUOTNt6FjJSBQndHQ==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\Gardens\\Gardens.csproj",
   "expectedPackageFiles": [],

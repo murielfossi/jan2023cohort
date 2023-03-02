@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "N/857w35MzvuZaJC4Kd0qiQMG03gIIxZeV2OfL2e0orWAWHpoDu8VKf5eHGzezzULnYgH4NMAdrU6msdze0F6Q==",
+=======
+  "dgSpecHash": "DPcBp5uAMOthAyCaSwiHB/l+OLd7+DObFkYMRiA1KBuSp/jBjiBzTLWMOnfDBfForT0xoyyeUNROfJgnugjMhw==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\BasicWebReviewPartOne.csproj",
   "expectedPackageFiles": [],

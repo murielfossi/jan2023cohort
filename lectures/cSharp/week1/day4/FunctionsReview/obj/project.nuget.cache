@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "H7g8C1ZbupH0EGNpvnfYG3z191OjBEdTpBsoi0r8INuljR1q7IAhOtkZADveb5cU7A1BTE1dv/jiwLpD2lvwAw==",
+=======
+  "dgSpecHash": "5cArrc1jR9E1C2MiYnjRBi3OvyUqUVlXWwPpjiAU2OoDyntK/vNUIofRVQGvkomgW3tagPYyED4byCQKpRxzxg==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week1\\day4\\FunctionsReview\\FunctionsReview.csproj",
   "expectedPackageFiles": [],

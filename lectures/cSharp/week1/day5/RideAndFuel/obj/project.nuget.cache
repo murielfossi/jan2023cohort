@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7IH7P9iIsNQ5eDf320eG78GMV2anr1sXoFsN6r0BgLcm3NDsYLci4PPSCHi61GvgPMGUofcoepFtHyUIuIeDVA==",
+=======
+  "dgSpecHash": "XyfwrDJOXU/sxClxcRIkZYrhNSIBJMzl2i0cnApbWBYg9X7JzpRR0DkrZUVPwhPBKgEs8lAhiSar+rBUK2Uefw==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\RideAndFuel\\RideAndFuel.csproj",
   "expectedPackageFiles": [],

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "w5LJzE3FG3v30vYR0vySj3q88mCj5Pi7psMz0GZZifPoCuD4HLHXKDVs5b+7kr4JKqmve6GmR8HHoKRovaUt0A==",
+=======
+  "dgSpecHash": "phiP6nWw10tyz0UGfXCk1Ag/INbwAi7p09koyxc1Z8zZSkgW05psaTpQfnDyBf9yIqS0PEICf1NxJDraGYAZsg==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\classProject\\games\\MadLibConsoleGame\\MadLibConsoleGame.csproj",
   "expectedPackageFiles": [],

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZVuM8EjFDvOde7qpdPpTMYP90rJoSWA1VGikJgKY416FskJtsbwMS8qct1VFd8B6O8kwpkA24ZTcR2IXgBqOyw==",
+=======
+  "dgSpecHash": "xPvml0Rswfd0zZPntXY5Sh512gSijPpLbYHSXNW0vv+L5D+WWAChyUtXGFQKn2CikXLZNflNG2N6ksC+NGNQTg==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\NewBasicWeb\\NewBasicWeb.csproj",
   "expectedPackageFiles": [],

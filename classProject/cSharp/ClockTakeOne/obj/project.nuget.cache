@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "aJjSFzBEjhhUtzHhyErZlpFiIrUmCY8mDq4+PBBNGeDj9ziVJAKVsesGczX0ZEDTZzf9P8WwCxp4Vl5s8Bl2jQ==",
+=======
+  "dgSpecHash": "O7ODYF/m/jVJXpIQ8K1R+Tesjos4JinJpAYsRASfFWCJ/rBq0gKsfqLbeEn9sDn82HmfGTtBVVRLtTOOjFPO9A==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\classProject\\cSharp\\ClockTakeOne\\ClockTakeOne.csproj",
   "expectedPackageFiles": [],

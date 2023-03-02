@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "BuyZq5qB+9i5h/Vu8qPaOM3YdQ1RiBVokFnlVMzdkwFyPQaCvDPlWzM1Yj/26FWJLEHkPgD6oUbQrGDZMIddyQ==",
+=======
+  "dgSpecHash": "XHyXPwtqkBEDeX9ExojbeumVXkhNDJ2XM6aBZCMAEFmlr+fWhScygVaFuCdG6khIsFO0x/6MrPW3zHKAGSPVFw==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\GitOctoCats\\GitOctoCats.csproj",
   "expectedPackageFiles": [],

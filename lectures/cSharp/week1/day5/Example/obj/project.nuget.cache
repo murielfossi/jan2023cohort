@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "L/h3uuauO07ZdEpH/XaPpqm2bxug7KQGKlJt5PTtRPKduUGaMiK/fvC3CapgBZTa348q5HXZHueydsY1hGNHMA==",
+=======
+  "dgSpecHash": "DfZwhGyQ4TUeUOueOPuQjDMHQaD3IfwV/R68zrIbQfoBb3dsOdJgis+4fwkBrq4CCAD73hKc9bJQ1wPfAJ97CA==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week1\\day5\\Example\\Example.csproj",
   "expectedPackageFiles": [],

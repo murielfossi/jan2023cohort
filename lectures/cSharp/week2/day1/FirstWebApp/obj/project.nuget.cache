@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZNS3oJ6qf5aCAuAxJNy07TsMIxm5QfjYMsOfXy/Q7d1Y3UMXWsa1GEzVq+DvtSkcRgJBHgAW88yDC9ROs382Jw==",
+=======
+  "dgSpecHash": "DOTayOUxT/AxpWrJuTIdLxeJ+zRChlfgOD9x9mGJ33TpxGN0drU8ikBmRslh+ZmVTrwhBAAxVYjASe6d9/F3pA==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\lectures\\cSharp\\week2\\day1\\FirstWebApp\\FirstWebApp.csproj",
   "expectedPackageFiles": [],

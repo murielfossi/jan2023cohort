@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "6ipz+TJg9PxUgOPxOvgJrsdMdGj1w69u0Ba++C1qvOy9HsSsLTLrjwMP9UuoO6cJkzuIxiGgKW7/bHbA1O7gyg==",
+=======
+  "dgSpecHash": "09wmMjYaBJDBN95YzpH1ZQTAaNXXjxDTra15KvcW955oyerJBBEhWBnKdhqVNlXldnlY/vhS7UPx3BdV2Is/9g==",
+>>>>>>> ba3acc035ca8580a32d04f057a71f1a9536e592a
   "success": true,
   "projectFilePath": "c:\\Users\\mufos\\OneDrive\\Desktop\\woscoding\\jan2023cohort\\classProject\\games\\NumberGuessingGame\\NumberGuessingGame.csproj",
   "expectedPackageFiles": [],
