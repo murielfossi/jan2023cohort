@@ -11,13 +11,13 @@
 <h4>Check out some recent Dishes</h4><br><br>
 
 
-@model List<Dishe>
+@model List<Dishe>;
 
     <div class="row">
         @* Return this in my home page*@
         @foreach(Dishe s in Model) {
             <div class="character">
-             <h5> <a href="/Dishe/dishinfos"> @s.DishName</a> by @s.DishChef</h5>
+             <h5> <a href="/Dishe/@s.DishId/dishinfos" > @s.DishName</a> by @s.DishChef</h5>
                 
             </div>
         }

@@ -34,7 +34,8 @@ public class DisheController: Controller
     }
     
      [HttpPost("/createDish")]
-    public IActionResult CreateSquishy(Dishe s) {
+    public IActionResult CreateSquishy(Dishe s)
+     {
         if(ModelState.IsValid) {
             // says hey db I got some info for you
             db.Dishes.Add(s);
@@ -42,10 +43,40 @@ public class DisheController: Controller
             db.SaveChanges();
             // Now since we saved it into the db there is an id attached so we can now print it as a way of verifying its there
             Console.WriteLine(s.DishId);
-            return Redirect("/home/Index");
+            return Redirect("/Dishe/Index");
         } else {
             return View("createDish");
         }
 
     }
+
+//display the dishinfos html page
+      [HttpGet("/dishinfos")]
+    public IActionResult DishInfos() //cette function va display le form sur ma page web
+    {
+        return View("dishinfos");
+    }
+
+
+
+
+    [HttpGet("/Dishe/{dishId}/dishinfos")]//this is going to route to Dishinfos with the id of each dish in the middle of the url
+    public IActionResult DishInfos(int dishId)//defining a function
+     {
+        Dishe? ViewDish = db.Dishes.FirstOrDefault(i => i.DishId == dishId);
+
+        if(ViewDish != null)
+         {
+            return View("DishInfos", ViewDish) ; //return view (Viewitem ) qui est dans la function DishInfos ki est la function
+        }
+           
+         else 
+         {
+             return RedirectToAction("index");
+        }
+    }
+
+
+
+    
 }

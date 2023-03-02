@@ -16,3 +16,24 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* .div1{
+  display: flex;
+  
+  justify-content: space-between;
+} */
+
+.div2{ width: fit-content;
+    margin: 20px;
+}
+
+.div3{ width: fit-content; 
+  float: right;
+  margin-right: 450px;
+  margin-top: -280px;
+    }
+
+
+button{
+  height: fit-content;width: fit fit-content;
+}

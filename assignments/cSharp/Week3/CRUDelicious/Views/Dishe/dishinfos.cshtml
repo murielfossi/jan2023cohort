@@ -9,7 +9,7 @@
         <a href="/">Home</a><span> | </span><a href="/adddish">Add A Dish</a>
     </nav>
 </div><br>
-<form action="/createdish" method="post">
+<form asp-action="DishInfos" asp-controller="Dishe" asp-route-id="@Model.DishId" method="post">
   <div>
       <h4>@Model.DishName by @Model.DishChef</h4>
       <h4>@Model.DishDescription</h4>

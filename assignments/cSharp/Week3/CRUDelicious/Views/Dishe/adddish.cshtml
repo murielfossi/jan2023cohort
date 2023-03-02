@@ -10,7 +10,7 @@
     </nav>
 </div>
 
-<div class="divone">
+<div class="div1">
     
     <form action="/createdish" method="post">
        <div class="div2">
@@ -30,25 +30,26 @@
                <input type="text" name="DishCalories" id="">
                <span asp-validation-for="DishCalories"></span>
             </section><br><br>
-             
-        </div>
-        <div class="div3">
+
             <section>
                <label for="DishTastiness">Tastiness</label>
                <select name="DishTastiness" id="">
-               <option value="2"> </option>
+               <option value=""> </option>
                <option value="1"> 1</option>
                <option value="2"> 2</option>
-               <option value="1"> 3</option>
-               <option value="2"> 4</option>
-               <option value="1"> 5</option>
+               <option value="3"> 3</option>
+               <option value="4"> 4</option>
+               <option value="5"> 5</option>
                
                <span asp-validation-for="DishTastiness"></span>
-               </select> 
+            </select> 
+             
+        </div><br>
+        <div class="div3">
             </section>
             <section>
-            <label asp-for="DishDescription">Description</label>    
-            <textarea cols="50" rows="5" asp-for="DishDescription"></textarea>
+            <label for ="DishDescription"> Description </label> 
+            <textarea cols="30" rows="5" asp-for="DishDescription"></textarea>
             <span asp-validation-for="DishDescription"></span>
             </section>
             <button>Add Dish</button>
