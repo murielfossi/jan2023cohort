@@ -1,40 +1,40 @@
 @{
-    ViewData["Title"] = "Add New Dish";
+    ViewData["Title"] = "Edit Dish";
 }
 
 @model Dishe
 <div class="text-center">
-   <nav>
+    <nav>
       <h4><a href="/">Home</a><span> | </span><a href="/adddish">Add A Dish</a></h4>
     </nav>
-    <h1>Add a new Dish!</h1>
+    <h1>Update your Dish here!</h1>
     
 </div>
 
 <div class="div1">
     
-    <form action="/createdish" method="post">
+    <form action="/Dishe/@Model.DishId/Update" method="post">
        <div class="div2">
            <section>
               <label for="DishChef">Chef's Name</label>
-              <input type="text" name="DishChef" id="">
+              <input type="text" name="DishChef" id="" value="@Model.DishChef">
               <span asp-validation-for="DishChef"></span>
        
             </section><br><br>
             <section>
                <label for="DishName"> Name of Dish</label>
-               <input type="text" name="DishName" id="">
+               <input type="text" name="DishName" id="" value="@Model.DishName">
                <span asp-validation-for="DishName"></span>
            </section><br><br>
            <section>
                <label for="DishCalories"># of Calories</label>
-               <input type="text" name="DishCalories" id="">
+               <input type="text" name="DishCalories" id="" value="@Model.DishCalories">
                <span asp-validation-for="DishCalories"></span>
             </section><br><br>
 
             <section>
                <label for="DishTastiness">Tastiness</label>
-               <select name="DishTastiness" id="">
+               <select name="DishTastiness" id=" " value="@Model.DishTastiness">
                <option value=""> </option>
                <option value="1"> 1</option>
                <option value="2"> 2</option>
@@ -46,14 +46,16 @@
             </select> 
              
         </div><br>
+
         <div class="div3">
-            </section>
+            
             <section>
             <label for ="DishDescription"> Description </label> 
             <textarea cols="30" rows="5" asp-for="DishDescription"></textarea>
             <span asp-validation-for="DishDescription"></span>
             </section><br>
-            <button style="background-color: aquamarine;">Add Dish</button>
+
+            <button style="background-color: yellow;">Update Dish</button>
             
         </div>
     </form>

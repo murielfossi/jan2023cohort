@@ -37,3 +37,8 @@ body {
 button{
   height: fit-content;width: fit fit-content;
 }
+
+.button{
+  display: flex;
+  justify-content: space-between;
+}
