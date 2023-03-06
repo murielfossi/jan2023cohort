@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using CRUDelicious.Models;
 
-namespace CRUDelicious.Controllers;
+namespace CRUDeliciou.Controllers;
 
 public class DisheController: Controller
 {

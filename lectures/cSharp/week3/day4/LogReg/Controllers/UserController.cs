@@ -75,4 +75,11 @@ public class UserController : Controller
         HttpContext.Session.Clear();
         return RedirectToAction("Index");
     }
+
+
+
+
+
+
+
 }
