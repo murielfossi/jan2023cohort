@@ -1,0 +1,36 @@
+
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                 <a href="/post/addpost" >Add a Post</a>
+                 <button style="bacground-color:red"><a href="/logout">Logout</a></button>
+
+                    
+                
+            </div>
+        </nav>
+   
+@model List<Post>
+
+
+
+@foreach(Post p in Model) {
+    
+        <h3><a href="/post/@p.PostId/view">@p.Img</a></h3>
+        <h4>@p.Title</h4>
+        <p>@p.Medium</p>
+        <p>@p.ForSale</p>
+        <p>@p.LikeCount like(s)</p>
+
+
+        <a href="/post/{postId}/edit">edit</a>
+        <a href="/delete">delete</a>
+
+
+    
+}
+
+
+    
+

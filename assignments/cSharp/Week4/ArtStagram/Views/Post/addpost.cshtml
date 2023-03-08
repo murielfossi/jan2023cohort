@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Add New Post";
+}
+
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                 <a href="/post/addpost" >Add a Post</a>
+                 <button style="bacground-color:red"><a href="/logout">Logout</a></button>
+
+                    
+                
+            </div>
+        </nav>
+   
+
+@model Post
+
+    <h1>Make a post!</h1>
+    
+
+
+<div class="div1">
+    
+    <form action="/post/createpost" method="post">
+
+       <div class="div2">
+           <section>
+              <label for="Img">Image (URL format please)</label>
+              <input type="text" name="Img" id="">
+              <span asp-validation-for="Img"></span>
+       
+            </section><br><br>
+            <section>
+               <label for="Title">Title </label>
+               <input type="text" name="Title" id="">
+               <span asp-validation-for="Title"></span>
+           </section><br><br>
+           <section>
+               <label for="Medium">Medium</label>
+               <input type="text" name="Medium" id="">
+               <span asp-validation-for="Medium"></span>
+            </section><br><br>
+
+            <section>
+            
+            <input type="checkbox" id="" name="ForSale" value="ForSale" />
+            <label for="ForSale">For Sale?</label>
+            <span asp-validation-for="ForSale"></span>
+
+            </section>
+             
+        </div><br>
+        <div class="div3">
+
+            <button style="background-color: aquamarine;">Add Post</button>
+            
+        </div>
+    </form>
+   
+</div>
