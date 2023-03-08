@@ -30,6 +30,12 @@ public class Chef
         int dob = int.Parse(BirthDate.ToString("yyyMMdd"));
         return (currentDate - dob) / 10000;
     }
+
+//this function will help me display the chefs name in the adddish.cshtml file with the viewbag
+        public string FullName(){
+        return FirstName + " " + LastName;
+    }
+    
 }
 
 
