@@ -1,0 +1,41 @@
+
+@model UserProfile
+ 
+   
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fossi Family Delice Website</title>
+</head>
+<body>
+    
+<div class="entete1">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg; border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FFDelice</a>
+                <div class="entete2">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a href="/about" class="nav-link text-dark">About</a>
+                            <a href="/food/menu"class="nav-link text-dark" >Menu</a>
+                            <a href="/contactus"class="nav-link text-dark" >Contact Us</a>
+                            <a href="/logout"class="nav-link text-dark" >Logout</a>
+                            <a href="/userprofile/adduserprofile" class="nav-link text-dark" ><img class="img1" src="/Image/profile.jfif" alt="Profile"width="40" height="40">Profile  </a>
+                </div>
+            </div>
+        </nav>
+</div>
+
+
+    
+    @* ici, J'apple mes 2 partial qui contienne mes form *@
+    <main class="">
+        @await Html.PartialAsync("_User")
+        @await Html.PartialAsync("_Order")
+    </main>
+</body>
+</html>
+        
+   

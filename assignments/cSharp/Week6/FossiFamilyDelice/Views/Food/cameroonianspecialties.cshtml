@@ -1,0 +1,139 @@
+@{
+    ViewData["Title"] = "Welcome , order your food with us!!!";
+
+}
+<div class="entete1">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg; border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FFDelice</a>
+                <div class="entete2">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a href="/about" class="nav-link text-dark">About</a>
+                            <a href="/menu"class="nav-link text-dark" >Menu</a>
+                            <a href="/contactus"class="nav-link text-dark" >Contact Us</a>
+                            <a href="/logout"class="nav-link text-dark" >Logout</a>
+                            <a href="/userprofile/adduserprofile" class="nav-link text-dark" ><img class="img1" src="/Image/profile.jfif" alt="Profile"width="40" height="40">Profile  </a>
+                            <a href="/addshoppingCart" class="nav-link text-dark" ><img class="img1" src="/Image/shopping Cart.jfif" alt="Profile"width="40" height="40">Cart </a>
+                </div>
+            </div>
+        </nav>
+</div>
+
+
+
+@model Food
+<h2 class="center"> Our Menu!!! &nbsp;&nbsp;<img class="img1" src="/Image/menu icon.jfif" alt="Profile"width="110" height="100"></h2>
+
+<div class="bar"></div><br>
+
+<nav class="center">
+   <h4> <a href="/menu">Urban Menu</a>&nbsp; | &nbsp; <a href="/cameroonianspecialties">Cameroonian Specialties</a></h4>
+</nav>
+
+
+    <div class="menu">
+        <div class="menu1">
+        <section>
+           <form action="/createfood" method="post">
+            <img src="/Image/brochette.jfif" alt="Profile"width="250" height="200" alt="brochette">
+            <h5>Brochette de boeuf</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>
+
+        <section>
+           <form action="/createfood" method="post">
+            <img src="/Image/fishbraiser.jfif" alt="Profile"width="250" height="200" alt="fishbraiser">
+            <h5>Poisson Braise</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>
+
+        <section>
+           <form action="/createfood" method="post">
+            <img src="/Image/ndole.jfif" alt="Profile"width="250" height="200" alt="ndole">
+            <h5>Ndole</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>
+
+        <section>
+           <form action="/createfood" method="post">
+            <img src="/Image/taro.jfif" alt="Profile"width="250" height="200" alt="taro">
+            <h5>Taro</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>
+        </div>
+
+        <div class="menu2">
+
+        <section>
+           <form action="/createfood" method="post">
+            <img src="/Image/okok sucre.jfif" alt="Profile"width="250" height="200" alt="okok">
+            <h5>Sweet Okok</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;<section>
+           <form action="/createfood" method="post">
+            <img src="/Image/eru.jfif" alt="Profile"width="250" height="200" alt="eru">
+            <h5>Eru</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         &nbsp;&nbsp;&nbsp;&nbsp;<section>
+           <form action="/createfood" method="post">
+            <img src="/Image/pomme saute.jfif" alt="Profile"width="250" height="200" alt="pomme saute">
+            <h5>Pomme Saute</h5>
+
+           <button class="border">
+             <img  src="/Image/addtocart.jfif" alt="Profile"width="150" height="" alt="addtocart">
+            </button> 
+           </form>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+
+        
+
+
+    </div>
+
+    

@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "Welcome , order your food with us!!!";
+
+}
+<div class="entete1">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg; border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FFDelice</a>
+                <div class="entete2">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a href="/about" class="nav-link text-dark">About</a>
+                            <a href="/food/menu"class="nav-link text-dark" >Menu</a>
+                            <a href="/contactus"class="nav-link text-dark" >Contact Us</a>
+                            <a href="/logout"class="nav-link text-dark" >Logout</a>
+                            <a href="/userprofile/adduserprofile" class="nav-link text-dark" ><img class="img1" src="/Image/profile.jfif" alt="Profile"width="40" height="40">Profile  </a>
+                            <a href="/addshoppingCart" class="nav-link text-dark" ><img class="img1" src="/Image/shopping Cart.jfif" alt="Profile"width="40" height="40">Cart </a>
+                </div>
+            </div>
+        </nav>
+</div>
+
+
+
+@model Food
+<h2 class="center"> Our Menu!!! &nbsp;&nbsp;<img class="img1" src="/Image/menu icon.jfif" alt="Profile"width="110" height="100"></h2>
+
+<div class="bar"></div><br>
+
+
+@{
+    ViewData["Title"] = "Add New Post";
+}
+
+
+<div class="div1">
+    
+    <form action="/food/createfood" method="post">
+
+       <div class="div2">
+           <section>
+              <label for="FoodImg">Food Image (URL format please)</label>
+              <input type="text" name="FoodImg" id="">
+              <span asp-validation-for="FoodImg"></span>
+       
+            </section><br><br>
+            <section>
+               <label for="FoodName">Food Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="text" name="FoodName" id="">
+               <span asp-validation-for="FoodName"></span>
+           </section><br><br>
+           <section>
+               <label for="FoodDescription">Food Description:</label>
+               <input type="text" name="FoodDescription" id="">
+               <span asp-validation-for="FoodDescription"></span>
+            </section><br><br>
+
+            <section>
+               <label for="FoodPrice">Food Price: $</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="text" name="FoodPrice" id="">
+               <span asp-validation-for="FoodPrice"></span>
+            </section><br><br>
+
+          
+        </div><br>
+        <div class="div3">
+
+            <button style="background-color: aquamarine;">Add Food</button>
+            
+        </div>
+    </form>
+   
+</div>

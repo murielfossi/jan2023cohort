@@ -1,0 +1,99 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.entete2 {
+  display: flex;
+  font-size: larger;
+}
+.entete1 {
+  background-color: bisque;
+}
+.img1 {
+  border-radius: 50%;
+}
+.center {
+  text-align: center;
+}
+.one {
+  margin: 80px;
+  font-size: x-large;
+  background-color: burlywood;
+}
+.img2 {
+  margin-top: 5px;
+}
+.bar {
+  border: 5px solid black;
+}
+
+.menu {
+  border: 5px solid black;
+  height: 800px;
+}
+.menu1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu2 {
+  display: flex;
+  margin-top: 40px;
+}
+
+.border {
+  background-color: blanchedalmond;
+}
+
+.twoform {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding: 20px;
+}
+
+.Foodmenu {
+  height: 450px;
+  background-color: white;
+}
+
+.color {
+  background-color: aquamarine;
+  width: auto;
+}
+
+.see {
+  display: flex;
+  justify-content: space-between;
+}
+.alluserinfos {
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+.para{border: 5px solid burlywood;
+  height: 400px;
+  width: 450px;
+  margin-left: 400px;
+  padding: 20px;
+  font-size: large;
+}
+
+.front{
+  background-color:beige;
+}
