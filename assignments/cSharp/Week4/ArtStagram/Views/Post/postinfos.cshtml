@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Post Infos";
+}
+@model Post;
+   
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                 <a href="/post/addpost" >Add a Post</a>
+                 <button style="bacground-color:red"><a href="/logout">Logout</a></button>
+
+                    
+                
+            </div>
+        </nav>
+@* <form asp-action="DishInfos" asp-controller="Dishe" asp-route-id="@Model.DishId" method="post"> *@
+ 
+ 
+    <div class="twoinfos">
+        <div>
+          <h5>@Model.Title</h5>
+          
+           <img src="@Model.Img" alt="image" width="150" height="150"><br>
+        
+        </div>
+        
+        
+   <div>
+        <p>Medium: @Model.Medium</p>
+        <p>@Model.ForSale</p>
+        <p>@Model.LikeCount like(s)</p>
+
+        <a href="/Post/@Model.PostId/edit">edit</a>
+        <a href="/post/@Model.PostId/delete">delete</a>
+   </div>
+
+ 
+  </div>
+@* </form>je ne doitpas metttre tout ca dans le form , seulement mon delete doit etre dans le form *@
+
+

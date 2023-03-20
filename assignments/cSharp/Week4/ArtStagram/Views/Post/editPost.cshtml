@@ -16,31 +16,31 @@
 
 
 @model Post
-<h1>Add a new Post</h1>
+<h1>Update your Post here</h1><br>
 
 
-<form action="/post/@Model.PostId/updatePost" method="post">
+<form action="/user/@Model.UserId/updateUser" method="post">
       <div class="div2">
            <section>
               <label for="Img">Image (URL format please)</label>
-              <input type="text" name="Img" id="">
+              <input type="text" name="Img" id="" value="@Model.Img">
               <span asp-validation-for="Img"></span>
        
             </section><br><br>
             <section>
                <label for="Title">Title </label>
-               <input type="text" name="Title" id="">
+               <input type="text" name="Title" id="" value="@Model.Title">
                <span asp-validation-for="Title"></span>
            </section><br><br>
            <section>
                <label for="Medium">Medium</label>
-               <input type="text" name="Medium" id="">
+               <input type="text" name="Medium" id="" value="@Model.Medium">
                <span asp-validation-for="Medium"></span>
             </section><br><br>
 
             <section>
             
-            <input type="checkbox" id="" name="ForSale" value="ForSale" />
+            <input type="checkbox" id="" name="ForSale" value="@Model.ForSale" />
             <label for="ForSale">For Sale?</label>
             <span asp-validation-for="ForSale"></span>
 

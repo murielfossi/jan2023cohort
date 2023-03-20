@@ -51,9 +51,11 @@ public class DishController : Controller
 
 
     [HttpGet("/viewdishes")]
-    public IActionResult ViewDishes() //cette function va display le form sur ma page web
-    {
-        return View("viewdishes");
+    public IActionResult ViewDishes() //cette function va display tous les dishes sur ma page web
+    {  List<Dish> allDishes = db.Dishes.Include(d => d.Author).ToList();
+        
+        return View(allDishes);
+        
     }
 
     

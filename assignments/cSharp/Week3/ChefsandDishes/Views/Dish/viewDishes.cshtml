@@ -7,8 +7,8 @@
    <nav>
        <h4><Span><a href="/">Home</a></Span> | <span><a href="/viewchefs">Chefs</a></span> | <span> <a href="/viewdishes">Dishes</a></span> |  <span><a href="/addchef">Add a Chef</a></span> | <span><a href="/adddish">Add A Dish</a></span></h4>
     </nav>
-    <h4>Check out our roster of chefs!</h4>
-</div>
+    <h4>Yum!!!! Check out our  tasty Dishes</h4>
+<table>
 
         <thead>
             <tr>
@@ -19,7 +19,8 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(Dish d in Model){
+            @foreach(Dish d in Model)
+            {
                 <tr>
                     <th>@d.DishName</th>
                     <td>@d.Author.FullName()</td>
@@ -29,4 +30,3 @@
             }
         <tbody>
     </table>
-</div>

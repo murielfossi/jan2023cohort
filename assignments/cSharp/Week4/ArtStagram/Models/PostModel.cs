@@ -7,6 +7,7 @@ public class Post {
     public int PostId {get; set;}
 
     [Required(ErrorMessage="URL format please")]
+    
     public string Img {get; set;}
 
     [Required]
@@ -17,7 +18,7 @@ public class Post {
     [MinLength(3, ErrorMessage="Title must be at least 3 characters long")] 
     public string Medium {get; set;}
 
-    [Required]
+    
     public string ForSale {get; set;}
     
     // add more attributes here

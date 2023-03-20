@@ -28,27 +28,15 @@ public class PostController : Controller
 
         List<Post> allPosts = db.Posts
         .Include(p => p.Author)
+        .OrderByDescending(p => p.CreatedAt)//instead author it will be created at to have the most recent post in the to of my dashboard
+        
         .ToList();
         return View("Dashboard", allPosts);
     }
 
 
 
-
-
-
-    [SessionCheck]
-    [HttpGet("/post/{postId}/view")]
-    public IActionResult ViewPost(int postId) {
-        Post? item = db.Posts
-        .Include(item => item.Author)
-        .FirstOrDefault(item => item.PostId == postId);
-        if(item == null) {
-            return RedirectToAction("Dashboard");
-        } else {
-            return View("ViewPost", item);
-        }
-    }
+     
 
   
     [SessionCheck]
@@ -69,6 +57,25 @@ public class PostController : Controller
         return View("AddPost");
     }
 
+     [HttpGet("/postinfos")]
+    public IActionResult PostInfos() //cette function va display le form sur ma page web
+    {
+        return View("postinfos");
+    }
+
+
+   
+    [HttpGet("/post/{postId}/postinfos")]
+    public IActionResult PostInfos(int postId) {
+        Post? item = db.Posts
+        .Include(item => item.Author)
+        .FirstOrDefault(item => item.PostId == postId);
+        if(item == null) {
+            return RedirectToAction("Dashboard");
+        } else {
+            return View("PostInfos", item);
+        }
+    }
 
 
 
@@ -82,7 +89,7 @@ public class PostController : Controller
         .Include(item => item.Author)
         .FirstOrDefault(item => item.PostId == postId);
         if(item == null) {
-            return RedirectToAction("Dashboard");
+            return RedirectToAction("Dashboard", postId);
         } else {
             return View("EditPost", item);
         }
@@ -143,3 +150,33 @@ public class SessionCheckAttribute : ActionFilterAttribute
         }
     }
 }
+
+
+
+
+
+
+//     [SessionCheck] Brianna code
+//     [HttpPost("/posts/{postId}/like")]
+//     public IActionResult Like (int postId)
+//     {
+//         Like? existingLike = db.Likes
+//         .FirstOrDefault(
+//         like => like.UserId == (int)HttpContext.Session.GetInt32("UUID") 
+//         && like.PostId == postId);
+
+//         if(existingLike != null)
+//         {
+//             db.Likes.Remove(existingLike);
+//             db.SaveChanges();
+//         }else {
+//             Like newLike = new Like (){
+//                 PostId = postId,
+//                 UserId = (int)HttpContext.Session.GetInt32("UUID")
+//             };
+//             db.Likes.Add(newLike);
+//             db.SaveChanges();
+//         }
+//         return RedirectToAction("All");
+//     }
+// }

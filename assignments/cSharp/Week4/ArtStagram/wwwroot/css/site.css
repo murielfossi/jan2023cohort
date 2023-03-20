@@ -21,3 +21,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.twoinfos{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.postinfos{
+  width: 250px;
+  height: auto;
+  border: 5px solid transparent ;
+}

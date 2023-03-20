@@ -1,3 +1,44 @@
+
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+
+            <div class="container-fluid">
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FFDelice</a>
+                
+                <div class="entete">
+                   
+                    
+                        
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        
+                        
+                            <a href="/about" class="nav-link text-dark">About</a>
+                       
+                            
+                            <a href="/menu"class="nav-link text-dark" >Menu</a>
+                      
+                      
+                            
+                            <a href="/contactus"class="nav-link text-dark" >Contact Us</a>
+                       
+                            
+                            <a href="/logout"class="nav-link text-dark" >Logout</a>
+                        
+                          
+                          
+                            <a href="userprofile" class="nav-link text-dark" ><img src="../../wwwroot/" alt="Profile"width="200" height="250"></a>
+                  
+                </div>
+            </div>
+        </nav>
+   
+
+
+
+
+
+
+
 @model User;
     <h3>@Context.Session.GetString("name"),You Successfully Register and Login to our Web page!!! </h3>
 

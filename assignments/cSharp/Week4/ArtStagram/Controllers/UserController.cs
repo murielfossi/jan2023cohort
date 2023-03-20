@@ -20,7 +20,8 @@ public class UserController : Controller
     
     [HttpGet("")]
     public IActionResult Index() {
-        if(HttpContext.Session.GetInt32("uid") != null) {
+        if(HttpContext.Session.GetInt32("uid") != null) 
+        {
             return RedirectToAction("Dashboard", "post");
         } else {
             return View("Index");

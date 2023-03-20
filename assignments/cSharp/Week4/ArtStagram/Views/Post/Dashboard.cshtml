@@ -16,17 +16,16 @@
 
 
 @foreach(Post p in Model) {
-    
-        <h3><a href="/post/@p.PostId/view">@p.Img</a></h3>
-        <h4>@p.Title</h4>
+<diV class="postinfos">
+        <img src="@p.Img" alt="image" width="150" height="150"><br>
+        <h4><a href="/post/@p.PostId/postinfos">@p.Title</a></h4>
         <p>@p.Medium</p>
         <p>@p.ForSale</p>
-        <p>@p.LikeCount like(s)</p>
-
-
-        <a href="/post/{postId}/edit">edit</a>
-        <a href="/delete">delete</a>
-
+        <p>@p.LikeCount like(s) <span><a href="/like/{postId}/createLike">Like</a></span></p> 
+        <a href="/Post/@p.PostId/edit">edit</a>
+        <a href="/post/@p.PostId/delete">delete</a><br><br>
+</diV>
+       
 
     
 }

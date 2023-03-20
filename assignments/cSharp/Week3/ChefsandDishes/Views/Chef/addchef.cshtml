@@ -1,12 +1,48 @@
 @{
-    ViewData["Title"] = "Add New Dish";
+    ViewData["Title"] = "Add New Chef";
 }
 
-@model Dish
+@model Chef
 <div class="text-center">
    <nav>
        <h4><Span><a href="/">Home</a></Span> | <span><a href="/viewchefs">Chefs</a></span> | <span> <a href="/viewdishes">Dishes</a></span> |  <span><a href="/addchef">Add a Chef</a></span> | <span><a href="/adddish">Add A Dish</a></span></h4>
     </nav>
     <h1>Add a new Chef Here!</h1>
     
+</div>
+
+
+
+<div class="div1">
+    
+    <form action="/createchef" method="post">
+       <div class="div2">
+        
+            <section>
+               <label for="FirstName"> FirstName</label>
+               <input type="text" name="FirstName" id="">
+               <span asp-validation-for="FirstName"></span>
+           </section><br><br>
+
+
+             <section>
+               <label for="LastName"> LastName</label>
+               <input type="text" name="LastName" id="">
+               <span asp-validation-for="LastName"></span>
+           </section><br><br>
+
+           <section>
+               <label for="BirthDate">Date of Birth</label>
+               <input type="date" name="BirthDate" id="">
+               <span asp-validation-for="BirthDate"></span>
+            </section><br><br>
+
+            
+             
+        </div><br>
+        <div class="div3">
+            <button style="background-color: aquamarine;">Add Chef</button>
+        </div>
+    </form>
+   
 </div>
