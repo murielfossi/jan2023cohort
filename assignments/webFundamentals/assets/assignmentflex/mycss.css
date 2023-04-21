@@ -1,0 +1,106 @@
+.firstcontainer{border: 50px solid #3c341f;
+    width: 1400px;
+    height: auto;
+    padding: 20px;
+    background-color:#965a3e;
+}
+
+.header{background-color: whitesmoke;
+    display: flex;justify-content: space-between;
+
+}
+#secondcontainer{width:1000px;
+    height: 200px; background-color:#965a3e;
+    padding: 100px;
+     display: flex;
+     justify-content:space-around;
+
+}
+#one{ background-color:#989898 ;height: 50px;
+    margin-top: 0px;
+}
+#two{height: 50px;
+    margin-top: -15px;margin-bottom: 10px;
+
+}
+#image1{
+    border:5px solid #989898;width: 351px; height: 281px;
+}
+
+#secondcontainer1{
+   width: 400px;
+   height: 250px;
+   margin-top: 5px;
+}
+#text{
+    height: 200px;
+   padding-top: 20px;
+   margin-top: -18px;
+}
+
+
+#thirdcontainer{ width: auto;
+    height: auto;
+    margin: 10px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#head{height: 100px;
+    width: 1500px; 
+    display: flex;
+    justify-content: space-between;
+
+}
+#thirdcontainer1{width: 400px;
+    display: block;
+    background-color: #c9c0bb;
+    padding-bottom: 10px;
+
+}
+ #two{background-color: #989898 ;padding: 0px;}
+  
+button{margin-left: 150px; background-color: #228B22;
+    
+
+}
+
+#thirdcontainer2{width: 400px;
+   ;display: block;
+    background-color: white;
+    padding-top: -10px;
+    padding-bottom: 10px;
+
+}
+#three{background-color:#989898 ;height: 40px;
+    margin-top: 0px;
+
+}
+#four{background-color: #989898 ;
+   padding: 0.99px;
+   height: 50px;
+   text-align:initial;
+   margin-bottom: 10px;
+
+}
+
+#thirdcontainer3{width: 400px;
+    display: block;
+    background-color: whitesmoke;
+    padding-top: 0;
+    padding-bottom: 10px;
+
+}
+#five{background-color:#989898 ;height: 40px;
+    margin-top: 0px;
+
+}
+#six{background-color: #989898 ;
+   padding: 0.99px; height: 50px;
+   text-align: initial;
+   margin-bottom: 10px;
+    
+
+}
